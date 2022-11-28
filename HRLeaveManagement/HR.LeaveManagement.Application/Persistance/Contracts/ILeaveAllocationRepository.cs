@@ -2,7 +2,7 @@
 {
     using HR.LeaveManagemenet.Domain;
 
-    public interface ILeaveAllocationRepository : IGenericRepository<LeaveAllocation>
+    public interface ILeaveAllocationRepository : IGenericRepository<LeaveAllocationDto>
     {
 
     }

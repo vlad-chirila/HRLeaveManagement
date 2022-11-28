@@ -2,7 +2,7 @@
 {
     using HR.LeaveManagemenet.Domain;
 
-    public interface ILeaveRequestRepository : IGenericRepository<LeaveRequest>
+    public interface ILeaveRequestRepository : IGenericRepository<LeaveRequestDto>
     {
 
     }
