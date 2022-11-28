@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "HR.LeaveManagemenet.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/HR.LeaveManagemenet.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HR.LeaveManagemenet.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "HR.LeaveManagemenet.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HR.LeaveManagemenet.Domain/HR.LeaveManagemenet.Domain.csproj",
+      "msbuildProject": "../HR.LeaveManagemenet.Domain/HR.LeaveManagemenet.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "HR.LeaveManagemenet.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Vlad-PC\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Vlad-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagemen\\HR.LeaveManagemenet.Domain\\HR.LeaveManagemenet.Domain.csproj": {
+              "projectPath": "C:\\Users\\Vlad-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagemen\\HR.LeaveManagemenet.Domain\\HR.LeaveManagemenet.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
