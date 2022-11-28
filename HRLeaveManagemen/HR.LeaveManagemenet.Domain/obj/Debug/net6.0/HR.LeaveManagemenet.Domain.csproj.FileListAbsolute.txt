@@ -9,3 +9,4 @@ C:\Users\Vlad-PC\source\repos\HRLeaveManagement\HRLeaveManagemen\HR.LeaveManagem
 C:\Users\Vlad-PC\source\repos\HRLeaveManagement\HRLeaveManagemen\HR.LeaveManagemenet.Domain\obj\Debug\net6.0\HR.LeaveManagemenet.Domain.dll
 C:\Users\Vlad-PC\source\repos\HRLeaveManagement\HRLeaveManagemen\HR.LeaveManagemenet.Domain\obj\Debug\net6.0\ref\HR.LeaveManagemenet.Domain.dll
 C:\Users\Vlad-PC\source\repos\HRLeaveManagement\HRLeaveManagemen\HR.LeaveManagemenet.Domain\obj\Debug\net6.0\HR.LeaveManagemenet.Domain.pdb
+C:\Users\Vlad-PC\source\repos\HRLeaveManagement\HRLeaveManagemen\HR.LeaveManagemenet.Domain\obj\Debug\net6.0\HR.LeaveManagemenet.Domain.csproj.AssemblyReference.cache
