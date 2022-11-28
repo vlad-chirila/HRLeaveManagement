@@ -5,7 +5,7 @@
 
 # User-specific files
 *.rsuser
-*.suo
+.suo
 *.user
 *.userosscache
 *.sln.docstates
@@ -102,6 +102,7 @@ StyleCopReport.xml
 _Chutzpah*
 
 # Visual C++ cache files
+obj/
 ipch/
 *.aps
 *.ncb
