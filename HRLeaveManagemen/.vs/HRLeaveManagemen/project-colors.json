@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "52d6421c-3e7f-4767-ad80-a249d2b34945": {
+      "ProjectGuid": "52d6421c-3e7f-4767-ad80-a249d2b34945",
+      "DisplayName": "HR.LeaveManagemenet.Domain",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

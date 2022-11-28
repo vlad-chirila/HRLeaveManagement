@@ -15,7 +15,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{A2691274-1802-4EB5-B399-351283201CA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagemenet.Domain", "HR.LeaveManagemenet.Domain\HR.LeaveManagemenet.Domain.csproj", "{52D6421C-3E7F-4767-AD80-A249D2B34945}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52D6421C-3E7F-4767-AD80-A249D2B34945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D6421C-3E7F-4767-AD80-A249D2B34945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D6421C-3E7F-4767-AD80-A249D2B34945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D6421C-3E7F-4767-AD80-A249D2B34945}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -24,6 +36,7 @@ Global
 		{20D79D9C-570D-46B9-B93B-16DC48EB843B} = {AD4D9CED-C079-49B0-9B6B-31E1975940D8}
 		{14FC9E30-F132-4A3E-8A7F-77D4379CEE86} = {AD4D9CED-C079-49B0-9B6B-31E1975940D8}
 		{A2691274-1802-4EB5-B399-351283201CA3} = {AD4D9CED-C079-49B0-9B6B-31E1975940D8}
+		{52D6421C-3E7F-4767-AD80-A249D2B34945} = {20D79D9C-570D-46B9-B93B-16DC48EB843B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6642D05B-C24A-4F13-8D01-F92E69323426}
