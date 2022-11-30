@@ -11,9 +11,9 @@
     public class GetLeaveAllocationDetailRequestHandler : IRequestHandler<GetLeaveAllocationDetailRequest, LeaveAllocationDto>
     {
         private readonly IMapper _mapper;
-        private readonly ILeaveAllocationRepository _leaveAllocationRepository;
+        private readonly ILeaveRequestRepository _leaveAllocationRepository;
 
-        public GetLeaveAllocationDetailRequestHandler(IMapper mapper, ILeaveAllocationRepository leaveAllocationRepository)
+        public GetLeaveAllocationDetailRequestHandler(IMapper mapper, ILeaveRequestRepository leaveAllocationRepository)
         {
             _mapper = mapper;
             _leaveAllocationRepository = leaveAllocationRepository;
