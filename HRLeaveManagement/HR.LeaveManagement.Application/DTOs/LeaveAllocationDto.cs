@@ -1,7 +1,5 @@
-﻿namespace HR.LeaveManagemenet.Domain
+﻿namespace HR.LeaveManagement.Application.DTOs
 {
-    using HR.LeaveManagement.Application.DTOs;
-
     public class LeaveAllocationDto : BaseDto
     {
         public int NumberOfDays { get; set; }
