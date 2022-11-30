@@ -4,6 +4,7 @@
 
     public interface ILeaveAllocationRepository : IGenericRepository<LeaveAllocationDto>
     {
-
+        public Task<LeaveAllocationDto> GetLeaveAllocationWithDetails(int Id);
+        public Task<LeaveAllocationDto> GetLeaveAllocationsWithDetails();
     }
 }

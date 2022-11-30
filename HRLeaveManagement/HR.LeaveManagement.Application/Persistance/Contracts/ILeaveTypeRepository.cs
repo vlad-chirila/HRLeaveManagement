@@ -4,6 +4,7 @@
 
     public interface ILeaveTypeRepository : IGenericRepository<LeaveTypeDto>
     {
-
+        public Task<LeaveTypeDto> GetLeaveTypeWithDetails(int Id);
+        public Task<List<LeaveTypeDto>> GetLeaveTypesWithDetails();
     }
 }
