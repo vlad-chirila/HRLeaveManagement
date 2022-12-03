@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\HRLeaveManagement",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveAllocation",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveAllocation\\Requests",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveAllocation\\Requests\\Commands",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequest",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequest\\Handlers",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequest\\Handlers\\Commands"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequest\\Handlers\\Commands\\CreateLeaveRequestCommandHandler.cs",
   "PreviewInSolutionExplorer": false
 }
