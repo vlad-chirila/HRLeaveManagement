@@ -23,9 +23,9 @@
         {
             var leaveRequest = _mapper.Map<LeaveRequest>(request.LeaveRequestDto);
 
-            leaveRequest = await _leaveRequestRepository.Create(leaveRequest);
+            leaveRequest = await _leaveRequestRepository.Add(leaveRequest);
 
             return leaveRequest.Id;
-        }
+        } 
     }
 }

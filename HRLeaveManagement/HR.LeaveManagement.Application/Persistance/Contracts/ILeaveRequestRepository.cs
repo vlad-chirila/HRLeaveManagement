@@ -3,10 +3,10 @@
     using HR.LeaveManagemenet.Domain;
     using HR.LeaveManagement.Application.DTOs.LeaveRequest;
 
-    public interface ILeaveRequestRepository : IGenericRepository<LeaveRequestDto>
+    public interface ILeaveRequestRepository : IGenericRepository<LeaveRequest>
     {
-        public Task<LeaveRequestDto> GetLeaveRequestWithDetails(int Id);
-        public Task<LeaveRequestDto> GetLeaveRequestsWithDetails();
-        public Task<LeaveRequest> Create(LeaveRequest leaveRequest);
+        Task<LeaveRequest> GetLeaveRequestWithDetails(int id);
+        Task<List<LeaveRequest>> GetLeaveRequestsWithDetails();
+        Task ChangeApprovalStatus(LeaveRequest leaveRequest, bool? ApprovalStatus);
     }
 }
