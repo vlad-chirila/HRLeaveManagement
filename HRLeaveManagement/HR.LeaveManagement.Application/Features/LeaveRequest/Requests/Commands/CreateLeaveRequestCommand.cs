@@ -5,6 +5,6 @@
 
     public class CreateLeaveRequestCommand : IRequest<int>
     {
-        public LeaveRequestDto? LeaveRequestDto { get; set; }
+        public CreateLeaveRequestDto? LeaveRequestDto { get; set; }
     }
 }

@@ -2,6 +2,7 @@
 {
     using AutoMapper;
     using HR.LeaveManagemenet.Domain;
+    using HR.LeaveManagement.Application.Exceptions;
     using HR.LeaveManagement.Application.Features.LeaveTypes.Requests.Commands;
     using HR.LeaveManagement.Application.Persistance.Contracts;
     using MediatR;
@@ -22,7 +23,9 @@
             var leaveType = await _leaveTypeRepository.Get(request.Id);
 
             if (leaveType == null)
-                throw new Exception(nameof(LeaveType));
+            {
+                throw new NotFoundException(nameof(LeaveType), request.Id);
+            }
 
             await _leaveTypeRepository.Delete(leaveType);
 
