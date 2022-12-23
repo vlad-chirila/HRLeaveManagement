@@ -33,7 +33,7 @@
                 throw new ValidationException(validationResult);
 
             var leaveAllocation = _mapper.Map<LeaveAllocation>(request.LeaveAllocationDto);
-            leaveAllocation = await _leaveAllocationRepository.Create(leaveAllocation);
+            leaveAllocation = await _leaveAllocationRepository.Add(leaveAllocation);
 
             return leaveAllocation.Id;
         }
