@@ -4,15 +4,15 @@
     "\\HRLeaveManagement",
     "\\HRLeaveManagement\\HR.LeaveManagement.Application",
     "\\HRLeaveManagement\\HR.LeaveManagement.Application\\DTOs",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\DTOs\\Common",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveAllocation",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveRequest",
     "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveAllocation",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveAllocation\\Handlers",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveAllocation\\Handlers\\Commands",
     "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequest",
     "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequest\\Handlers",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequest\\Handlers\\Commands"
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequest\\Handlers\\Commands",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Infrastructure",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Persistence"
   ],
-  "SelectedNode": "\\HRLeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveRequest\\UpdateLeaveRequestDto.cs",
+  "SelectedNode": "\\HRLeaveManagement\\HR.LeaveManagement.Persistence\\HrLeaveManagemenetDbContext.cs",
   "PreviewInSolutionExplorer": false
 }

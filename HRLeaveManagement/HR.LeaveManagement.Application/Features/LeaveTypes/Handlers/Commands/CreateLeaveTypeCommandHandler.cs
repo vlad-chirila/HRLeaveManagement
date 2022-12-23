@@ -33,7 +33,7 @@
 
             var leaveType = _mapper.Map<LeaveType>(request.LeaveTypeDto);
 
-            leaveType = await _leaveTypeRepository.Create(leaveType);
+            leaveType = await _leaveTypeRepository.Add(leaveType);
 
             return leaveType.Id;
         }
