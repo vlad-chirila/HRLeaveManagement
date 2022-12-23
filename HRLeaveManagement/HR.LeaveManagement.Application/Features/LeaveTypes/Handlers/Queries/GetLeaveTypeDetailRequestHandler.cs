@@ -3,7 +3,7 @@
     using AutoMapper;
     using HR.LeaveManagement.Application.DTOs;
     using HR.LeaveManagement.Application.Features.LeaveTypes.Requests;
-    using HR.LeaveManagement.Application.Persistance.Contracts;
+    using HR.LeaveManagement.Application.Contracts.Persistence;
 
     public class GetLeaveTypeDetailRequestHandler
     {

@@ -1,6 +1,6 @@
 ﻿namespace HR.LeaveManagement.Persistence.Repositories
 {
-    using HR.LeaveManagement.Application.Persistance.Contracts;
+    using HR.LeaveManagement.Application.Contracts.Persistence;
     using Microsoft.EntityFrameworkCore;
 
     public class GenericRepository<T> : IGenericRepository<T> where T : class
