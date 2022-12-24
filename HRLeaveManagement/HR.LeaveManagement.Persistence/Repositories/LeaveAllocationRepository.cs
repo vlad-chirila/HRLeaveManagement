@@ -2,7 +2,7 @@
 {
     using HR.LeaveManagemenet.Domain;
     using HR.LeaveManagement.Application.DTOs;
-    using HR.LeaveManagement.Application.Persistance.Contracts;
+    using HR.LeaveManagement.Application.Contracts.Persistence;
     using Microsoft.EntityFrameworkCore;
     using System.Threading.Tasks;
 

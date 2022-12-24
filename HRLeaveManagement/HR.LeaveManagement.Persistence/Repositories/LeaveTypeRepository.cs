@@ -1,7 +1,7 @@
 ﻿namespace HR.LeaveManagement.Persistence.Repositories
 {
     using HR.LeaveManagemenet.Domain;
-    using HR.LeaveManagement.Application.Persistance.Contracts;
+    using HR.LeaveManagement.Application.Contracts.Persistence;
 
     public class LeaveTypeRepository : GenericRepository<LeaveType>, ILeaveTypeRepository
     {

@@ -2,7 +2,7 @@
 {
     using FluentValidation;
     using HR.LeaveManagement.Application.DTOs.LeaveRequest;
-    using HR.LeaveManagement.Application.Persistance.Contracts;
+    using HR.LeaveManagement.Application.Contracts.Persistence;
 
     public class CreateLeaveRequestDtoValidator : AbstractValidator<CreateLeaveRequestDto>
     {
