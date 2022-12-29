@@ -1,7 +1,7 @@
 ﻿namespace HR.LeaveManagement.Application.Profiles
 {
     using AutoMapper;
-    using HR.LeaveManagemenet.Domain;
+    using HR.LeaveManagement.Domain;
     using HR.LeaveManagement.Application.DTOs;
     using HR.LeaveManagement.Application.DTOs.LeaveRequest;
 

@@ -1,7 +1,7 @@
 ﻿namespace HR.LeaveManagement.Application.Features.LeaveRequest.Handlers.Commands
 {
     using AutoMapper;
-    using HR.LeaveManagemenet.Domain;
+    using HR.LeaveManagement.Domain;
     using HR.LeaveManagement.Application.Exceptions;
     using HR.LeaveManagement.Application.Features.LeaveRequest.Requests.Commands;
     using HR.LeaveManagement.Application.Features.LeaveRequest.Validators;

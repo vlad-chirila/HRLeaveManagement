@@ -1,7 +1,7 @@
 ﻿namespace HR.LeaveManagement.Persistence
 {
-    using HR.LeaveManagemenet.Domain;
-    using HR.LeaveManagemenet.Domain.Common;
+    using HR.LeaveManagement.Domain;
+    using HR.LeaveManagement.Domain.Common;
     using Microsoft.EntityFrameworkCore;
     using System.Threading;
     using System.Threading.Tasks;

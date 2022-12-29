@@ -1,6 +1,6 @@
 ﻿namespace HR.LeaveManagement.Application.Contracts.Persistence
 {
-    using HR.LeaveManagemenet.Domain;
+    using HR.LeaveManagement.Domain;
 
     public interface ILeaveRequestRepository : IGenericRepository<LeaveRequest>
     {

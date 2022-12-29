@@ -1,6 +1,6 @@
-﻿namespace HR.LeaveManagemenet.Domain
+﻿namespace HR.LeaveManagement.Domain
 {
-    using HR.LeaveManagemenet.Domain.Common;
+    using HR.LeaveManagement.Domain.Common;
 
     public class LeaveType : BaseDomainEntity
     {

@@ -3,14 +3,14 @@
     "",
     "\\HRLeaveManagement",
     "\\HRLeaveManagement\\HR.LeaveManagement.Application",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Contracts",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Contracts\\Infrastructure",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\DTOs",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveAllocation",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\DTOs\\LeaveAllocation\\Validators",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Exceptions",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Models"
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers\\Commands",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Persistence",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Persistence\\Migrations",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Persistence\\Repositories"
   ],
-  "SelectedNode": "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveRequest\\Handlers\\Commands\\UpdateLeaveRequestCommandHandler.cs",
+  "SelectedNode": "\\HRLeaveManagement\\HR.LeaveManagement.Persistence\\PersistenceServicesRegistration.cs",
   "PreviewInSolutionExplorer": false
 }
