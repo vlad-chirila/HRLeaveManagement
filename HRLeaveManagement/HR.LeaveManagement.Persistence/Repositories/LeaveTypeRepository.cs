@@ -5,8 +5,8 @@
 
     public class LeaveTypeRepository : GenericRepository<LeaveType>, ILeaveTypeRepository
     {
-        private readonly HrLeaveManagemenetDbContext _dbContext;
-        public LeaveTypeRepository(HrLeaveManagemenetDbContext dbContext) : base(dbContext)
+        private readonly HrLeaveManagementDbContext _dbContext;
+        public LeaveTypeRepository(HrLeaveManagementDbContext dbContext) : base(dbContext)
         {
             _dbContext = dbContext;
         }

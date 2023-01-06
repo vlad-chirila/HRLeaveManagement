@@ -5,8 +5,8 @@
 
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        private readonly HrLeaveManagemenetDbContext _dbContext;
-        public GenericRepository(HrLeaveManagemenetDbContext dbContext)
+        private readonly HrLeaveManagementDbContext _dbContext;
+        public GenericRepository(HrLeaveManagementDbContext dbContext)
         {
             _dbContext = dbContext;
         }

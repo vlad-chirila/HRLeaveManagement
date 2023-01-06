@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace HR.LeaveManagement.Persistence.Migrations
 {
-    [DbContext(typeof(HrLeaveManagemenetDbContext))]
-    partial class HrLeaveManagemenetDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(HrLeaveManagementDbContext))]
+    partial class HrLeaveManagementDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

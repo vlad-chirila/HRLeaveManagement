@@ -8,8 +8,8 @@
 
     public class LeaveRequestRepository : GenericRepository<LeaveRequest>, ILeaveRequestRepository
     {
-        private readonly HrLeaveManagemenetDbContext _dbContext;
-        public LeaveRequestRepository(HrLeaveManagemenetDbContext dbContext) : base(dbContext)
+        private readonly HrLeaveManagementDbContext _dbContext;
+        public LeaveRequestRepository(HrLeaveManagementDbContext dbContext) : base(dbContext)
         {
             _dbContext = dbContext;
         }

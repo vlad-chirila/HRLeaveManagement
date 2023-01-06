@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\HRLeaveManagement",
+    "\\HRLeaveManagement\\HR.LeaveManagemenet.Domain",
+    "\\HRLeaveManagement\\HR.LeaveManagemenet.Domain\\Common",
+    "\\HRLeaveManagement\\HR.LeaveManagement.API",
     "\\HRLeaveManagement\\HR.LeaveManagement.Application",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Features\\LeaveTypes\\Handlers\\Commands",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Contracts",
+    "\\HRLeaveManagement\\HR.LeaveManagement.Application\\Contracts\\Infrastructure",
     "\\HRLeaveManagement\\HR.LeaveManagement.Persistence",
-    "\\HRLeaveManagement\\HR.LeaveManagement.Persistence\\Migrations",
     "\\HRLeaveManagement\\HR.LeaveManagement.Persistence\\Repositories"
   ],
-  "SelectedNode": "\\HRLeaveManagement\\HR.LeaveManagement.Persistence\\PersistenceServicesRegistration.cs",
+  "SelectedNode": "\\HRLeaveManagement\\HR.LeaveManagement.API\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
